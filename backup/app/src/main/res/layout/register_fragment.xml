@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:hint="请输入您的用户名"
+        android:layout_alignLeft="@+id/edit_pwd_new"
+        android:layout_alignStart="@+id/edit_pwd_new"
+        android:layout_alignRight="@+id/edit_pwd_new"
+        android:layout_alignEnd="@+id/edit_pwd_new" />
+
+    <EditText
+        android:id="@+id/edit_pwd_old"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="请输入您的密码"
+        android:layout_below="@+id/edit_name"
+        android:layout_alignRight="@+id/edit_name"
+        android:layout_alignEnd="@+id/edit_name"
+        android:layout_alignLeft="@+id/edit_name"
+        android:layout_alignStart="@+id/edit_name" />
+
+    <EditText
+        android:id="@+id/edit_pwd_new"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_pwd_old"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:hint="请确认您的密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/edit_pwd_new"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:hint="请输入您的邮箱"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/identifying_code"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/edit_email"
+        />
+
+    <Button
+        android:id="@+id/register_btn_send"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_email"
+        android:layout_toRightOf="@+id/identifying_code"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="发送验证码"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="#BA55D3"/>
+
+    <Button
+        android:id="@+id/register_btn_sure"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="#7B68EE"
+        android:layout_below="@+id/identifying_code"
+        android:layout_alignLeft="@+id/edit_pwd_new"
+        android:layout_alignStart="@+id/edit_pwd_new"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

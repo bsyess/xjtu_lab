@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="need_for_translation">
+        <item>英语</item>
+        <item>中文</item>
+        <!--<item>自动检测</item>-->
+    </string-array>
+    <string-array name="wait_for_translation">
+        <item>英语</item>
+        <item>中文</item>
+        <!--<item>自动检测</item>-->
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_rg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/translate_bottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="翻译"
+            android:textSize="28dp"/>
+
+        <RadioButton
+            android:id="@+id/mine_bottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="我的"
+            android:textSize="28dp"/>
+
+        <RadioButton
+            android:id="@+id/Game_Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="游戏"
+            android:textSize="28dp"/>
+
+    </RadioGroup>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView"
+        android:background="#B8CFCF"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

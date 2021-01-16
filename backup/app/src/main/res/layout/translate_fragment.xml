@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Spinner
+        android:id="@+id/need_translation_spinner"
+        android:layout_width="112dp"
+        android:layout_height="30dp"
+        android:entries="@array/need_for_translation"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <EditText
+        android:id="@+id/need_translation_text"
+        android:layout_width="343dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/need_translation_spinner"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="17dp"
+        android:hint="需要翻译的内容"
+        android:inputType="none"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/translation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="翻译"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/need_translation_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_select"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/collect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收藏"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/translation_button"
+        android:layout_below="@+id/need_translation_text"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_select"
+        />
+
+    <Spinner
+        android:id="@+id/wait_translation_spinner"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:entries="@array/wait_for_translation"
+        android:layout_below="@+id/translation_button"
+        android:layout_alignLeft="@+id/need_translation_text"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/wait_translation_text"
+        android:layout_width="345dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/wait_translation_spinner"
+        android:layout_alignLeft="@+id/wait_translation_spinner"
+        android:layout_marginTop="20dp"
+        android:hint="翻译的结果"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/push_word_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/need_translation_text"
+        android:layout_marginLeft="-98dp"
+        android:layout_marginTop="239dp"
+        android:layout_toRightOf="@+id/translation_button"
+        android:background="@drawable/btn_select"
+        android:text="推送单词"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/look_translation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/need_translation_text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="237dp"
+        android:layout_toRightOf="@+id/translation_button"
+        android:background="@drawable/btn_select"
+        android:text="查看翻译"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/push_word_text"
+        android:layout_width="348dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/wait_translation_spinner"
+        android:layout_alignLeft="@+id/wait_translation_spinner"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="205dp"
+        android:hint="推送的单词及翻译"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

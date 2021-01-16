@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidCourseDeviseTwo</string>
+    <drawable name="anxia">#BA55D3</drawable>
+    <drawable name="taiqi">#BA55D3</drawable>
+</resources>
