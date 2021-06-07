@@ -1,0 +1,6 @@
+;test without DELAY SLOT
+;start:
+mul r1,r2,r3
+ lw r2,0(r1)
+ add r4,r0,r2
+ sw r4,10(r5)

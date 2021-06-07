@@ -1,0 +1,172 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Pipeline - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Pipeline.res" /d "_DEBUG" "C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Pipeline.rc"" 
+Creating temporary file "C:\Users\LVCS\AppData\Local\Temp\RSP56A0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Pipeline.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\AsmEditDoc.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\AsmEditFrame.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\AsmEditView.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\AsmInstruction.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\ChildFrm.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\CntrItem.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\CycleDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Error.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\ExecInstCtrl.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\hyperlink.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\IntegerDatapathCtrl.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\LexAnalyzer.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\line.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\MainFrm.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\MemDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\MIPSAsmGrammar.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\MIPSPipelineDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\MIPSSimulator.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Pipeline.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\PipelineDoc.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\PipelineView.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\RegDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\ResetDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\SimConfigDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\SimulatorDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\StatDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\TextCtrl.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Tokenizer.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\TraceDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\XPButton.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\ComboGridCtrl.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\GridCtrl.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\GridDropTarget.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\InPlaceEdit.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\InPlaceList.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\GridCtrl\TitleTip.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CCrystalEditView.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CCrystalTextBuffer.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CCrystalTextView.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CCrystalTextView2.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CEditReplaceDlg.cpp"
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\Crystal\CFindTextDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\LVCS\AppData\Local\Temp\RSP56A0.tmp" 
+Creating temporary file "C:\Users\LVCS\AppData\Local\Temp\RSP56A1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Pipeline.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\LVCS\Desktop\MIPS Simulator bsyess\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\LVCS\AppData\Local\Temp\RSP56A1.tmp" 
+Creating temporary file "C:\Users\LVCS\AppData\Local\Temp\RSP56B1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MIPS Simulator - debug version.pdb" /debug /machine:I386 /out:"../bin/MIPS Simulator - debug version.exe" /pdbtype:sept 
+".\Debug\AsmEditDoc.obj"
+".\Debug\AsmEditFrame.obj"
+".\Debug\AsmEditView.obj"
+".\Debug\AsmInstruction.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\CntrItem.obj"
+".\Debug\CycleDlg.obj"
+".\Debug\Error.obj"
+".\Debug\ExecInstCtrl.obj"
+".\Debug\hyperlink.obj"
+".\Debug\IntegerDatapathCtrl.obj"
+".\Debug\LexAnalyzer.obj"
+".\Debug\line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MemDlg.obj"
+".\Debug\MIPSAsmGrammar.obj"
+".\Debug\MIPSPipelineDlg.obj"
+".\Debug\MIPSSimulator.obj"
+".\Debug\Pipeline.obj"
+".\Debug\PipelineDoc.obj"
+".\Debug\PipelineView.obj"
+".\Debug\RegDlg.obj"
+".\Debug\ResetDlg.obj"
+".\Debug\SimConfigDlg.obj"
+".\Debug\SimulatorDlg.obj"
+".\Debug\StatDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TextCtrl.obj"
+".\Debug\Tokenizer.obj"
+".\Debug\TraceDlg.obj"
+".\Debug\XPButton.obj"
+".\Debug\ComboGridCtrl.obj"
+".\Debug\GridCtrl.obj"
+".\Debug\GridDropTarget.obj"
+".\Debug\InPlaceEdit.obj"
+".\Debug\InPlaceList.obj"
+".\Debug\TitleTip.obj"
+".\Debug\CCrystalEditView.obj"
+".\Debug\CCrystalTextBuffer.obj"
+".\Debug\CCrystalTextView.obj"
+".\Debug\CCrystalTextView2.obj"
+".\Debug\CEditReplaceDlg.obj"
+".\Debug\CFindTextDlg.obj"
+".\Debug\Pipeline.res"
+]
+Creating command line "link.exe @C:\Users\LVCS\AppData\Local\Temp\RSP56B1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AsmEditDoc.cpp
+AsmEditFrame.cpp
+AsmEditView.cpp
+AsmInstruction.cpp
+ChildFrm.cpp
+CntrItem.cpp
+CycleDlg.cpp
+Error.cpp
+ExecInstCtrl.cpp
+hyperlink.cpp
+IntegerDatapathCtrl.cpp
+LexAnalyzer.cpp
+line.cpp
+MainFrm.cpp
+MemDlg.cpp
+MIPSAsmGrammar.cpp
+MIPSPipelineDlg.cpp
+MIPSSimulator.cpp
+Pipeline.cpp
+PipelineDoc.cpp
+Generating Code...
+Compiling...
+PipelineView.cpp
+RegDlg.cpp
+ResetDlg.cpp
+SimConfigDlg.cpp
+SimulatorDlg.cpp
+StatDlg.cpp
+TextCtrl.cpp
+Tokenizer.cpp
+TraceDlg.cpp
+XPButton.cpp
+ComboGridCtrl.cpp
+GridCtrl.cpp
+GridDropTarget.cpp
+InPlaceEdit.cpp
+InPlaceList.cpp
+TitleTip.cpp
+CCrystalEditView.cpp
+CCrystalTextBuffer.cpp
+CCrystalTextView.cpp
+CCrystalTextView2.cpp
+Generating Code...
+Compiling...
+CEditReplaceDlg.cpp
+CFindTextDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MIPS Simulator - debug version.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
