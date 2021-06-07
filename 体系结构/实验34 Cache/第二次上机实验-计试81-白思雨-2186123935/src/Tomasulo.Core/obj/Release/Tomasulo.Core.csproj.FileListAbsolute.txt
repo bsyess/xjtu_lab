@@ -1,0 +1,5 @@
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\bin\Release\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\bin\Release\Tomasulo.Core.pdb
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Release\Tomasulo.Core.csproj.CoreCompileInputs.cache
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Release\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Release\Tomasulo.Core.pdb

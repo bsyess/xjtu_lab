@@ -1,0 +1,11 @@
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\bin\Debug\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\bin\Debug\Tomasulo.Core.pdb
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.csprojAssemblyReference.cache
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.csproj.CoreCompileInputs.cache
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-master-#\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.pdb
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\bin\Debug\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\bin\Debug\Tomasulo.Core.pdb
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.csproj.CoreCompileInputs.cache
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.dll
+C:\Users\LVCS\Desktop\Tomasulo-bsyess\Tomasulo-master\src\Tomasulo.Core\obj\Debug\Tomasulo.Core.pdb
