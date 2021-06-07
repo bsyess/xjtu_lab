@@ -1,0 +1,9 @@
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\bin\Debug\CacheSimulator.exe.config
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\bin\Debug\CacheSimulator.exe
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\bin\Debug\CacheSimulator.pdb
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.Form1.resources
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.Properties.Resources.resources
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.csproj.GenerateResource.cache
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.csproj.CoreCompileInputs.cache
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.exe
+C:\Users\LVCS\Desktop\CacheSimulator-master\CacheSimulator\obj\Debug\CacheSimulator.pdb
