@@ -1,0 +1,24 @@
+d001	Marketing	Margareta Markovitch
+d001	Marketing	Vishwani Minakawa
+d002	Finance	Ebru Alpin
+d002	Finance	Isamu Legleitner
+d003	Human Resources	Shirish Ossenbruggen
+d003	Human Resources	Karsten Sigstam
+d004	Production	Krassimir Wegerle
+d004	Production	Rosine Cools
+d004	Production	Shem Kieras
+d004	Production	Oscar Ghazalie
+d005	Development	DeForest Hagimont
+d005	Development	Leon DasSarma
+d006	Quality Management	Peternela Onuegbe
+d006	Quality Management	Rutger Hofmeyr
+d006	Quality Management	Sanjoy Quadeer
+d006	Quality Management	Dung Pesch
+d007	Sales	Przemyslawa Kaelbling
+d007	Sales	Hauke Zhang
+d008	Research	Arie Staelin
+d008	Research	Hilary Kambil
+d009	Customer Service	Tonny Butterworth
+d009	Customer Service	Marjo Giarratana
+d009	Customer Service	Xiaobin Spinelli
+d009	Customer Service	Yuchang Weedman
